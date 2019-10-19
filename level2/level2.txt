@@ -2,10 +2,27 @@ Level 2
 by June Ingdal Bergsli
 
 1. What is the DOM?
+	The DOM stands for Document Object Model. It defines the standard for accessing HTML documents. It is like a controller between HTML, CSS and JavaScript. 
+
 2. List three methods to manipulate the DOM.
+	createElement() //Create an HTML-element
+	getElementById() //Find an elment by its Id in the HTML file
+	setAttribute() //Changes the attribute value of an HTML element
+	
 3. What is an asynchronous call?
+	It is a call that makes the code run outside of the main call. It does not block the program/site from the execution of the code. Other elements will be able to rund, while the asynchrous call is made, making the site load faster.
+
 4. Briefly explain what the sources tab in Chromes Developers Tools does.
+	It showes you all the files use on that website. Files like HTML, CSS and Javascript. And also assets, images and much more. 
+
 5. What is a JavaScript promise?
+	It's a way to execute code asynchronously. When a promise is called, the code does not wait for a response, and contiunes to the next line of code. Promises are easy to manage when we're dealing with multiple asynchronous operations, and are an ideal choice for handling these operations in the simplest matter.
+ 
 6. What is an API?
+	Application Programming Interface is a set of protocolsm routines and tools for bulding applications. It specifies how applications communicate and interact with each other. 
+
 7. What is a JavaScript Event?
+	It is something that triggers an action. Like when a user is clicking on a button, hovering over a button e.t.c on the website. The interaction between JavaScript and HTML is handled through events. 
+
 8. What is event bubbling?
+	It is an event that occurs when someone is interacting with an element that is nested inside another element, and the event the "bubbles" upwards thrugh all of its ancestor elements.
